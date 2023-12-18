@@ -1,1 +1,1 @@
-# password-generator
+In this project we will attempt to create a password generator that will display two twelve character long passwords.
