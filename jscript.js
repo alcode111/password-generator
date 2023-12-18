@@ -10,3 +10,14 @@ function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length)
     return characters[randomChar]
 }
+
+let passwordLength = 12
+
+function generatePassword() {
+    let randomPassword = ""
+    for (let i = 0; i < passwordLength; i++) {
+        randomPassword += getRandomCharacter()
+    }
+    return randomPassword
+}
+
