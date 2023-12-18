@@ -58,3 +58,42 @@ p {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.divider {
+    width: 446px;
+    height: 0.5px;
+    position: absolute;
+    left: 52px;
+    top: 361px;
+    background: #2F3E53;
+}
+
+#password-one {
+    width: 211px;
+    height: 39px;
+    color: #55F991;
+    background: #273549;
+    position: absolute;
+    left: 52px;
+    top: 396px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+#password-two {
+    width: 211px;
+    height: 39px;
+    color: #55F991;
+    background: #273549;
+    position: absolute;
+    left: 287px;
+    top: 396px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
